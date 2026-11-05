@@ -1,0 +1,15 @@
+.modalButtonBox{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+}
+
+#modelInfoBox{
+        margin-left: 5%;
+}
+
+#modelInfoItem{
+        margin: 0px;
+        padding: 0px;
+        font-size: 14px;
+}
