@@ -24,7 +24,7 @@ npm start
 
 ## Deployment
 
-Deployed to the `foodsecurityfrontend` Tapis pod by `.github/workflows/deploy.yaml`, using the shared
-[ICICLE CI/CD templates](https://github.com/ICICLE-ai/cicd-templates/wiki/Quick-start) (`v2.2.1`).
+Deployed to the `fss` Tapis pod (image `ghcr.io/icicle-ai/fss`) by `.github/workflows/deploy.yaml`, using the shared
+[ICICLE CI/CD templates](https://github.com/ICICLE-ai/cicd-templates/wiki/Quick-start) (`v2.3.0`).
 Bump `service-version` in `icicle-service.yaml` and push to `main` to release.
 CI checks the rollout through `GET /healthcheck` (served by Nginx).

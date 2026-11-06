@@ -1,9 +1,9 @@
-# ICICLE CI/CD config (cicd-templates v2.2.1): https://github.com/ICICLE-ai/cicd-templates/wiki/Quick-start
+# ICICLE CI/CD config (cicd-templates v2.3.0): https://github.com/ICICLE-ai/cicd-templates/wiki/Quick-start
 # Food Security Sandbox - React frontend served by the shared Nginx image
 schema-version: 3
-# Image name AND Tapis pod ID. Must match the pod the platform team provisions.
-service-name: foodsecurityfrontend
-# Becomes the image tag (ghcr.io/icicle-ai/foodsecurityfrontend:<version>). Bump for every deployable build.
+# Image name AND Tapis pod ID (ghcr.io/icicle-ai/fss, pod fss).
+service-name: fss
+# Becomes the image tag. Bump for every deployable build.
 service-version: 1.0.0
 project-name: food-security-sandbox
 service-type: domain
